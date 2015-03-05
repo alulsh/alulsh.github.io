@@ -9,54 +9,54 @@ Just like with HTML and CSS, all you need is a text editor (Notepad, TextEdit) a
 #### Advanced Text Editors
 These programs feature productivity-enhancing features such as syntax highlighting, line numbering, and multiple tabs.
 
-* Sublime Text (Mac, Windows, and Linux)
-* Notepad++ (Windows)
-* Komodo Edit (Mac, Windows, and Linux)
+* [Sublime Text](http://www.sublimetext.com/) (Mac, Windows, and Linux)
+* [Komodo Edit](http://komodoide.com/komodo-edit/) (Mac, Windows, and Linux)
+* [Notepad++](http://notepad-plus-plus.org/) (Windows)
 
 #### Browser Tools
-All popular web browsers come with built in developer consoles and tools for debugging. 
+All popular web browsers come with built in [developer consoles](http://wickedlysmart.com/hfjsconsole/) and tools for debugging. 
 
-* Chrome: Chrome Developer Tools (“DevTools”)
-* Firefox: Firefox Developer Tools - Note: you do not need to download the Firefox Developer Edition for these tools
-* Safari: Web Inspector
-* Internet Explorer: F12 Developer Tools
+* Chrome: [Chrome Developer Tools](https://developer.chrome.com/devtools) (“DevTools”)
+* Firefox: [Firefox Developer Tools](https://developer.mozilla.org/en-US/docs/Tools) - Note: you do not need to download the Firefox Developer Edition for these tools
+* Safari: [Web Inspector](https://developer.apple.com/safari/tools/)
+* Internet Explorer: [F12 Developer Tools](https://msdn.microsoft.com/library/ie/bg182326(v=vs.85))
 
 #### Shells and Online IDEs
 Shells allow you to quickly write and test JavaScript code without having to save files locally. They allow you to easily send and share links to your work with others. Cloud or online IDEs allow you to write and debug JavaScript from any device, which is especially useful if you have multiple computers.
 
-* JSFiddle - Shell - Save “fiddles” and share with permalinks
-* JSBin - Shell - Save work, share links, embed bins on webpages, and view codecasts
-* Codepen - Shell
-* Koding - IDE
-* Cloud9 - IDE
+* [JSFiddle](http://jsfiddle.net/) - Shell - Save “fiddles” and share with permalinks
+* [JSBin](http://jsbin.com/) - Shell - Save work, share links, embed bins on webpages, and view codecasts
+* [Codepen](http://codepen.io/) - Shell
+* [Koding](https://koding.com/) - IDE
+* [Cloud9](https://c9.io/) - IDE
 
 ### Beginner Resources
 You know HTML and CSS and are ready to start adding interactivity to your web pages.
 
 #### Interactive
-* CodeAcademy JavaScript Track - 10 hours - Free
-* HTML/JS: Making webpages interactive - KhanAcademy - Free
-* JavaScript Basics - Treehouse - Free 14 day trial - $25/month paid plan
-* CodeSchool JavaScript Language track - First lesson free - $29/month paid plan
-* CodeCombat - Free - Online game 
+* [CodeAcademy JavaScript Track](http://www.codecademy.com/en/tracks/javascript) - 10 hours - Free
+* [HTML/JS: Making webpages interactive](https://www.khanacademy.org/computing/computer-programming/html-css-js) - KhanAcademy - Free
+* [JavaScript Basics](http://teamtreehouse.com/library/javascript-basics) - Treehouse - Free 14 day trial - $25/month paid plan
+* [CodeSchool JavaScript Language track](https://www.codeschool.com/paths/javascript) - First lesson free - $29/month paid plan
+* [CodeCombat](http://codecombat.com/) - Free - Online game 
 
 #### Video
-Lynda.com videos are free with a DC Public Library card. You can obtain an online library card instantly with a valid DC driver’s license. Residents of neighboring counties in MD and VA are also eligible for a free DC library card! Non-DMV residents can also pay $20 at the MLK library to obtain a library card for a year. The org code for DCPL on Lynda.com is dclibrary.org. 
+Lynda.com videos are free with a [DC Public Library card](http://dclibrary.org/node/46352). You can obtain an online library card instantly with a valid DC driver’s license. Residents of neighboring counties in MD and VA are also eligible for a [free DC library card](http://dclibrary.org/getacard)! Non-DMV residents can also pay $20 at the MLK library to obtain a library card for a year. The org code for DCPL on Lynda.com is dclibrary.org. 
 
-* JavaScript for Web Designers - Lynda - Free with DC library card
-* JavaScript Essential Training - Lynda - Free with DC library card
-* Introduction to JavaScript Development - Udemy - Free 
-* Learn to Program in JavaScript: Beginner to Pro - Udemy - Free
-* JavaScript Fundamentals: Development for Absolute Beginners - MSDN Channel9 - Free
+* [JavaScript for Web Designers](http://www.lynda.com/JavaScript-tutorials/JavaScript-Web-Designers/144203-2.html) - Lynda - Free with DC library card
+* [JavaScript Essential Training](http://www.lynda.com/JavaScript-tutorials/JavaScript-Essential-Training/81266-2.html) - Lynda - Free with DC library card
+* [Introduction to JavaScript Development](https://www.udemy.com/refactoru-intro-js) - Udemy - Free 
+* [Learn to Program in JavaScript: Beginner to Pro](https://www.udemy.com/programming-in-javascript) - Udemy - Free
+* [JavaScript Fundamentals: Development for Absolute Beginners](http://channel9.msdn.com/Series/Javascript-Fundamentals-Development-for-Absolute-Beginners) - MSDN Channel9 - Free
 
 #### Books
-* JavaScript and jQuery: Interactive Front End Development - $26.67 on Amazon
-* Head First JavaScript Programming - $24 (e-book) or $35 for print on Amazon - Available on Safari Books - Free sample chapter
-* Beginning JavaScript - $31.20 on Amazon - 5th edition (2015), not 4th (2009) 
+* [JavaScript and jQuery: Interactive Front End Development](http://javascriptbook.com/about/) - $26.67 on Amazon
+* [Head First JavaScript Programming](http://www.amazon.com/Head-First-JavaScript-Programming-Freeman/dp/144934013X) - $24 (e-book) or $35 for print on Amazon - [Available on Safari Books](https://www.safaribooksonline.com/) - [Free sample chapter](http://cdn.oreillystatic.com/oreilly/booksamplers/9781449340131_sampler.pdf)
+* [Beginning JavaScript](http://www.amazon.com/Beginning-JavaScript-Jeremy-McPeak/dp/1118903331) - $31.20 on Amazon - 5th edition (2015), not 4th (2009) 
 
 #### Articles and Tutorials
-* JavaScript For Cats 
-* Learning the Web: JavaScript Basics
+* [JavaScript For Cats](http://jsforcats.com/) 
+* [Learning the Web: JavaScript Basics](https://developer.mozilla.org/en-US/Learn/Getting_started_with_the_web/JavaScript_basics)
 
 #### Project Ideas
 * Create a digital clock, alarm, countdown, or even Pomodoro timer 
