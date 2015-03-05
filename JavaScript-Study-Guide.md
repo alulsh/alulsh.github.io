@@ -59,71 +59,71 @@ Lynda.com videos are free with a [DC Public Library card](http://dclibrary.org/n
 * [Learning the Web: JavaScript Basics](https://developer.mozilla.org/en-US/Learn/Getting_started_with_the_web/JavaScript_basics)
 
 #### Project Ideas
-* Create a digital clock, alarm, countdown, or even Pomodoro timer 
-* Create an app that converts English into Pig Latin
+* Create a digital clock, alarm, countdown, or even [Pomodoro timer](http://tomato-timer.com/) 
+* Create an app that converts [English into Pig Latin](http://www.wordplays.com/pig-latin)
 * Make a calculator
-* Create a to do list application
-* Create an image gallery or image slider
+* Create a [to do list](http://thewebrocks.com/publications/smashingbook3/todolist/) application
+* Create an image gallery or [image slider](http://rafbm.github.io/howtomakeaslider/)
 * Make a quiz on one of your favorite topics
 
 ### Intermediate Resources
 You know basic Javascript and want to further your understanding of functions and objects. You are also are ready for deep dives on specific topics. 
 
 #### Interactive
-* CodeWars - Free - Solve programming problems and earn points
-* Learn JavaScript by Example - Free
+* [CodeWars](http://www.codewars.com/join?language=javascript) - Free - Solve programming problems and earn points
+* [Learn JavaScript by Example](https://www.learneroo.com/modules/64) - Free
 
 ####Video
-* JavaScript: Enhancing the DOM - Lynda - Free with DC library card
-* JavaScript: Functions - Lynda - Free with DC library card
-* JavaScript and AJAX - Lynda - Free with DC library card
-* The TreeHouse Show - Treehouse - Free - “Your weekly dose of web design and web development news”
+* [JavaScript: Enhancing the DOM](http://www.lynda.com/HTML-tutorials/JavaScript-Enhancing-DOM/122462-2.html) - Lynda - Free with DC library card
+* [JavaScript: Functions](http://www.lynda.com/JavaScript-tutorials/JavaScript-Functions/148137-2.html) - Lynda - Free with DC library card
+* [JavaScript and AJAX](http://www.lynda.com/Developer-tutorials/JavaScript-and-AJAX/114900-2.html) - Lynda - Free with DC library card
+* [The TreeHouse Show](http://teamtreehouse.com/library/the-treehouse-show) - Treehouse - Free - “Your weekly dose of web design and web development news”
 
 #### Audio
-* Introduction to JavaScript - Ep 14 from StartHere.fm
-* JavaScript and jQuery: Moving beyond Alert() - Episode 256 of The Hanselminutes Podcast
+* [Introduction to JavaScript](http://starthere.fm/webdev/14) - Ep 14 from StartHere.fm
+* [JavaScript and jQuery: Moving beyond Alert()](http://hanselminutes.com/256/javascript-and-jquery-moving-beyond-alert) - Episode 256 of The Hanselminutes Podcast
 
 #### Books
-* Eloquent JavaScript - Free
-* JavaScript Enlightenment - Free
-* Speaking JavaScript - Free
-* JavaScript: The Good Parts - $13.49 (ebook) or $21.35 print on Amazon
-* JavaScript: The Definitive Guide - $22 (ebook) or $32.94 print on Amazon 
+* [Eloquent JavaScript](http://eloquentjavascript.net/) - Free
+* [JavaScript Enlightenment](http://www.javascriptenlightenment.com/) - Free
+* [Speaking JavaScript](http://speakingjs.com/) - Free
+* [JavaScript: The Good Parts](http://www.amazon.com/JavaScript-Good-Parts-Douglas-Crockford/dp/0596517742) - $13.49 (ebook) or $21.35 print on Amazon
+* [JavaScript: The Definitive Guide](http://www.amazon.com/JavaScript-Definitive-Guide-Activate-Guides/dp/0596805527) - $22 (ebook) or $32.94 print on Amazon 
 
 #### Articles and Tutorials
-* A re-introduction to JavaScript
-* JavaScript Garden - “A growing collection of documentation about the most quirky parts of the JavaScript programming language.”
-* JavaScript The Right Way
+* [A re-introduction to JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript/A_re-introduction_to_JavaScript)
+* [JavaScript Garden](http://bonsaiden.github.io/JavaScript-Garden/) - “A growing collection of documentation about the most quirky parts of the JavaScript programming language.”
+* [JavaScript The Right Way](http://jstherightway.org/)
 
 #### Project Ideas
-* Create a strong random password generator 
-* Create cool shapes, animations, and games with HTML5 Canvas
-* Build a robot in the Fight Code Game 
-* Create a mashup using one of the APIs featured in Wanted! Simple APIs Without Authentication
+* Create a [strong random password generator](https://strongpasswordgenerator.com/)
+* Create cool shapes, animations, and games with [HTML5 Canvas](http://billmill.org/static/canvastutorial/index.html)
+* Build a robot in the [Fight Code Game](http://fightcodegame.com/) 
+* Create a mashup using one of the APIs featured in [Wanted! Simple APIs Without Authentication](https://shkspr.mobi/blog/2014/04/wanted-simple-apis-without-authentication/)
 
 ### Advanced Resources
 You’ve gotten pretty good at this JavaScript thing and are looking to improve your code. You know jQuery and a couple other JavaScript libraries, but are looking to improve your plain JavaScript skills.
 
 #### Interactive
-* JavaScript Koans - Solve JavaScript runtime errors by fixing Jasmine tests
+* [JavaScript Koans](https://github.com/mrdavidlaing/javascript-koans) - Solve JavaScript runtime errors by fixing Jasmine tests
 
 #### Audio
-* JavaScript Jabber - Weekly podcast
+* [JavaScript Jabber](http://devchat.tv/js-jabber/) - Weekly podcast
 
 #### Books
-* DOM Enlightenment - Free 
-* Learning JavaScript Design Patterns - Free 
-* Maintainable JavaScript - $17 ebook, $26.48 print on Amazon
+* [DOM Enlightenment](http://domenlightenment.com/) - Free 
+* [Learning JavaScript Design Patterns](http://addyosmani.com/resources/essentialjsdesignpatterns/book/) - Free 
+* [Maintainable JavaScript](http://www.amazon.com/Maintainable-JavaScript-Nicholas-C-Zakas/dp/1449327680) - $17 ebook, $26.48 print on Amazon
 
 #### Articles and Tutorials
-* You Might Not Need jQuery
-* Human JavaScript
-* Principles of Writing Consistent, Idiomatic JavaScript
+* [You Might Not Need jQuery](http://youmightnotneedjquery.com/)
+* [Human JavaScript](http://read.humanjavascript.com/)
+* [Principles of Writing Consistent, Idiomatic JavaScript](https://github.com/rwaldron/idiomatic.js)
 
 #### Linters - Static Code Analysis
-* JSHint
-* JSLint
+* [JSHint](http://jshint.com/)
+* [JSLint](http://www.jslint.com/)
 
 #### Project Ideas
-* Create a mashup with the Google Maps JavaScript API v3
-* Create an offline web application 
+* Create a mashup with the [Google Maps JavaScript API v3](https://developers.google.com/maps/documentation/javascript/tutorial)
+* Create an [offline web application](http://diveintohtml5.info/offline.html)
