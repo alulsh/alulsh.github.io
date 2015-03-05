@@ -2,8 +2,10 @@
 ## JavaScript Study Guide
 
 ### What is JavaScript?
+
 ### What tools do I need?
 Just like with HTML and CSS, all you need is a text editor (Notepad, TextEdit) and a web browser! Nevertheless, as you write more complex JavaScript you may find it difficult to write code and debug with only basic text editors. Advanced text editors, browser tools (for debugging), and online integrated development environments (IDEs) make coding JavaScript and squashing bugs easier.
+
 #### Advanced Text Editors
 These programs feature productivity-enhancing features such as syntax highlighting, line numbering, and multiple tabs.
 
@@ -64,64 +66,64 @@ Lynda.com videos are free with a DC Public Library card. You can obtain an onlin
 * Create an image gallery or image slider
 * Make a quiz on one of your favorite topics
 
-Intermediate Resources
+### Intermediate Resources
 You know basic Javascript and want to further your understanding of functions and objects. You are also are ready for deep dives on specific topics. 
 
-Interactive
-CodeWars - Free - Solve programming problems and earn points
-Learn JavaScript by Example - Free
+#### Interactive
+* CodeWars - Free - Solve programming problems and earn points
+* Learn JavaScript by Example - Free
 
-Video
-JavaScript: Enhancing the DOM - Lynda - Free with DC library card
-JavaScript: Functions - Lynda - Free with DC library card
-JavaScript and AJAX - Lynda - Free with DC library card
-The TreeHouse Show - Treehouse - Free - “Your weekly dose of web design and web development news”
+####Video
+* JavaScript: Enhancing the DOM - Lynda - Free with DC library card
+* JavaScript: Functions - Lynda - Free with DC library card
+* JavaScript and AJAX - Lynda - Free with DC library card
+* The TreeHouse Show - Treehouse - Free - “Your weekly dose of web design and web development news”
 
-Audio
-Introduction to JavaScript - Ep 14 from StartHere.fm
-JavaScript and jQuery: Moving beyond Alert() - Episode 256 of The Hanselminutes Podcast
+#### Audio
+* Introduction to JavaScript - Ep 14 from StartHere.fm
+* JavaScript and jQuery: Moving beyond Alert() - Episode 256 of The Hanselminutes Podcast
 
-Books
-Eloquent JavaScript - Free
-JavaScript Enlightenment - Free
-Speaking JavaScript - Free
-JavaScript: The Good Parts - $13.49 (ebook) or $21.35 print on Amazon
-JavaScript: The Definitive Guide - $22 (ebook) or $32.94 print on Amazon 
+#### Books
+* Eloquent JavaScript - Free
+* JavaScript Enlightenment - Free
+* Speaking JavaScript - Free
+* JavaScript: The Good Parts - $13.49 (ebook) or $21.35 print on Amazon
+* JavaScript: The Definitive Guide - $22 (ebook) or $32.94 print on Amazon 
 
-Articles and Tutorials
-A re-introduction to JavaScript
-JavaScript Garden - “A growing collection of documentation about the most quirky parts of the JavaScript programming language.”
-JavaScript The Right Way
+#### Articles and Tutorials
+* A re-introduction to JavaScript
+* JavaScript Garden - “A growing collection of documentation about the most quirky parts of the JavaScript programming language.”
+* JavaScript The Right Way
 
-Project Ideas
-Create a strong random password generator 
-Create cool shapes, animations, and games with HTML5 Canvas
-Build a robot in the Fight Code Game 
-Create a mashup using one of the APIs featured in Wanted! Simple APIs Without Authentication
+#### Project Ideas
+* Create a strong random password generator 
+* Create cool shapes, animations, and games with HTML5 Canvas
+* Build a robot in the Fight Code Game 
+* Create a mashup using one of the APIs featured in Wanted! Simple APIs Without Authentication
 
-Advanced Resources
+### Advanced Resources
 You’ve gotten pretty good at this JavaScript thing and are looking to improve your code. You know jQuery and a couple other JavaScript libraries, but are looking to improve your plain JavaScript skills.
 
-Interactive
-JavaScript Koans - Solve JavaScript runtime errors by fixing Jasmine tests
+#### Interactive
+* JavaScript Koans - Solve JavaScript runtime errors by fixing Jasmine tests
 
-Audio
-JavaScript Jabber - Weekly podcast
+#### Audio
+* JavaScript Jabber - Weekly podcast
 
-Books
-DOM Enlightenment - Free 
-Learning JavaScript Design Patterns - Free 
-Maintainable JavaScript - $17 ebook, $26.48 print on Amazon
+#### Books
+* DOM Enlightenment - Free 
+* Learning JavaScript Design Patterns - Free 
+* Maintainable JavaScript - $17 ebook, $26.48 print on Amazon
 
-Articles and Tutorials
-You Might Not Need jQuery
-Human JavaScript
-Principles of Writing Consistent, Idiomatic JavaScript
+#### Articles and Tutorials
+* You Might Not Need jQuery
+* Human JavaScript
+* Principles of Writing Consistent, Idiomatic JavaScript
 
-Linters - Static Code Analysis
-JSHint
-JSLint
+#### Linters - Static Code Analysis
+* JSHint
+* JSLint
 
-Project Ideas
-Create a mashup with the Google Maps JavaScript API v3
-Create an offline web application 
+#### Project Ideas
+* Create a mashup with the Google Maps JavaScript API v3
+* Create an offline web application 
