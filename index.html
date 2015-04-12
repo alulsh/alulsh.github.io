@@ -5,46 +5,94 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Alexandra L. Ulsh</title>
+	
+	<!-- Google Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Inconsolata:400,700" rel="stylesheet" type="text/css">
+	
+	<link href="css/styles.css" rel="stylesheet" type="text/css">
 
-    <!-- Bootstrap -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
-
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
   </head>
-  <body>
+<body>
 		<div class="container">
-			
-			<div class="row">
-				<div class="col-md-12">
-					<h1>Alexandra L. Ulsh</h1>
-				</div>
-			</div>
-			
-			<div class="row">
-			
-				<div class="col-md-6">
-					<h2>SharePoint Admin</h2>
-					<h3><i class-"icon-map-marker"></i> Washington, D.C.</h3>
-				</div>
-			
-				<div class="col-md-6">
-					<h2>Blog</h2>
-					<p>Nothing yet! Come back soon?</p>
-				</div>
+					
+			<h1 class="inconsolata">Alexandra L. Ulsh</h1>
+					
+				<h2 class="inconsolata" id="MyJob">
+				    <a href="http://www.skylinetechnologies.com/Blog/Article/128/What-is-a-SharePoint-Administrator.aspx" id="MyJobLink" alt="What is a SharePoint Administrator?" title="What is a SharePoint Administrator?">SharePoint Administrator</a>
+				</h2>
 				
-			</div>
-			
+				<h2 class="inconsolata">Washington, D.C.</h2>
+				<img src="images/dcSmall.png" id="washingtonDC" />
+				
+				<div class="inconsolata">
+					<h3>I design, build, and secure web-based information systems.</h3>
+					<h3>I like PowerShell, JavaScript, and computer security.</h3>
+					<h3>I am Security+ certified.</h3>
+				</div>
+					
 		</div>
 		
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+        <div id="MainContent">
+    		
+    			<h2 class="MainSection">About Me</h2>
+    				
+                <p>I have been working with SharePoint since 2009. I first started off as site collection administrator while an intern in college. For the past 3 years I have been working full time as a farm administrator. I have considerable skills in SharePoint, IIS, PowerShell, Microsoft SQL Server, and Windows Server.</p> 
+
+                <p>I have a knack for fixing poorly performing and behaving SharePoint farms. I am also an expert at applying the <a href="http://www.disa.mil/">Defense Information Systems Agency</a> (DISA) <a href="http://iase.disa.mil/stigs/Pages/index.aspx">Security Technical Implementation Guides</a> (STIGs) to SharePoint farms. I can write a Site Security Plan in less than a week. I also wrote a set of PowerShell modules that can STIG a complete SharePoint farm (SharePoint 2010, IIS 7, and SQL Server 2012) in less than 5 minutes.</p>
+
+                <p>In addition to SharePoint I also dabble in web development, especially client-side and server-side JavaScript. I currently serve as one of the leads for Women Who Code DC's Front End Hack Nights, helping local women learn HTML, CSS, and JavaScript.</p>
+
+                <p>Apart from technology I enjoy music, playing guitar, snowboarding, cooking, running, and strength training.</p> 
+    				    
+            <h2 class="MainSection">Portfolio</h2>
+				
+            	<div id="PortfolioWrapper">
+									
+									<a href="https://github.com/alulsh/SharePoint-2010-STIGs">
+		                <div class="portfolio powershell">
+		                	<span class="portfolioText">SharePoint 2010 STIGs</span>
+		                </div>
+	                </a>
+	                
+	                <div class="portfolio powershell">
+	                	<span class="portfolioText">SharePoint 2010 Setup Scripts</span>
+	                </div>
+	                
+	                <div class="portfolio powershell">
+	                	<span class="portfolioText">Koding Prezi Presentation</span>
+	                </div>
+	                
+	                <div class="portfolio powershell">
+	                	<span class="portfolioText">WWCDC JavaScript Study Guide<span>
+	                </div>
+	                
+	                <div class="portfolio powershell">
+	                	<span class="portfolioText">Pig Latin Translator</span>
+	                </div>
+
+            	</div>
+
+          <div class="wrapper">
+						<h2 class="MainSection clear">Contact Me</h2>
+          </div>
+    		    
+    		  <div id="SocialMediaWrapper">
+                    
+	          <a href="mailto:alexandra.ulsh@gmail.com">
+							<div id="GmailIcon" class="SocialMediaIcon"></div>
+	          </a>
+	                    
+						<a href="http://www.linkedin.com/in/alexandraulsh">
+							<div id="LinkedInIcon" class="SocialMediaIcon"></div>
+						</a>
+						
+						<a href="https://github.com/alulsh/">
+							<div id="GitHubIcon" class="SocialMediaIcon"></div>
+						</a>
+
+					</div>
+				
+    	</div>
+    
   </body>
 </html>
