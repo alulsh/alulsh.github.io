@@ -24,7 +24,7 @@ a:visited {
     color: #000;
 }
 
-.inconsolata {
+.firamono {
     font-family: 'Fira Mono', Arial, serif;
     font-weight: 700;
 }
@@ -76,7 +76,7 @@ h3 {
     margin: 60px 0px 60px 0px;
     font-size: 48px;
     color: #000;
-    font-family: 'Inconsolata', Arial, serif;
+    font-family: 'Fira Mono', Arial, serif;
     font-weight: 700;
 }
 
