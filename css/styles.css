@@ -190,3 +190,19 @@ h3 {
 #GitHubIcon:hover {
     background: url(../images/github-64.png);
 }
+
+#TwitterIcon {
+    background: url(../images/twitter-64-black.png);
+}
+
+#TwitterIcon:hover {
+    background: url(../images/twitter-64.png);
+}
+
+#InstagramIcon{
+    background: url(../images/instagram-64-black.png);
+}
+
+#InstagramIcon:hover {
+    background: url(../images/instagram-64.png);
+}
