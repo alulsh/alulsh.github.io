@@ -173,18 +173,6 @@ a:visited {
 
 /* Overrides */
 
-#MyJobLink {
-    text-decoration: none;
-    color: #FFF;
-    cursor: help;
-}
-
-#MyJobLink:hover {
-    text-decoration: none;
-    color: #000;
-    cursor: help;
-}
-
 .wrapper {
     clear: both;
     padding-top: 1px;
