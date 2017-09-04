@@ -23,7 +23,7 @@ I've given a few talks over the past couple of years, mostly around information 
 
 [Slides](https://www.alexandraulsh.com/intro-to-security-for-developers/slides/#/) - [GitHub](https://github.com/alulsh/intro-to-security-for-developers) - [video](https://www.youtube.com/watch?v=997I98d_QN0)
 
-Two hour long interactive workshop with Node.js code samples for full stack developers. Topics including secure use of GitHub and npm, HTTPS, cross site scripting (XSS), designing authentication systems, information disclosure, protecting availability, and security HTTP headers.
+Two hour long interactive workshop with Node.js code samples for full stack developers. Topics include secure use of GitHub and npm, HTTPS, cross site scripting (XSS), designing authentication systems, information disclosure, protecting availability, and security HTTP headers.
 
 * February 9, 2017 - [Women Who Code DC Tech Talk](https://www.meetup.com/Women-Who-Code-DC/events/235989630/)
 * October 22, 2016 - [Tech Lady Hackathon #4](http://techladyhackathon.org/)
