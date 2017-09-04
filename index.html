@@ -1,88 +1,28 @@
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Alexandra Ulsh</title>
-        <link href="https://fonts.googleapis.com/css?family=Fira+Mono:400,700" rel="stylesheet" type="text/css">
-        <link href="css/styles.css" rel="stylesheet" type="text/css">
-        <script>
-            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-            })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+---
+layout: default
+---
+{% assign posts_count = (paginator.posts | size) %}
 
-            ga('create', 'UA-62755698-1', 'auto');
-            ga('send', 'pageview');
-        </script>
-    </head>
-<body>
-    <div class="container">
-        <h1 class="firamono">Alexandra Ulsh</h1>
-        <h2>Information Security Engineer at <a href="https://www.mapbox.com/">Mapbox</a></h2>
-        <h2 class="firamono">Washington, D.C.</h2>
-        <img src="images/DCsmall.png" id="washingtonDC" alt="Washington, D.C."/>
-        <div id="MainContent">
-            <h2 class="MainSection firamono">About Me</h2>
-                <p>I'm an Information Security Engineer at <a href="https://www.mapbox.com/">Mapbox</a>. I work on everything from running our bug bounty program on <a href="https://hackerone.com/mapbox">HackerOne</a>, to locking down our AWS infrastructure, to making sure every team member knows how to use their password manager.</p>
-
-                <p>Outside of work I'm an active volunteer in the local DCTech community. I'm the Director of Operations for <a href="https://twitter.com/womenwhocodedc">Women Who Code DC</a>. Before that I served as one of the leads for <a href="https://twitter.com/womenwhocodedc">WWCDC's</a> 
-                <a href="http://www.meetup.com/Women-Who-Code-DC/">Front End Lab Nights</a>, helping local women learn HTML, CSS, and JavaScript. As a member of DCFemTech, I also helped organize DCFemTech's 2nd annual <a href="https://dcfemtech.github.io/hackforgood.html">Hack for Good</a> hackathon.</p>
-                
-                <p>Before Mapbox, I worked as a SharePoint Administrator from 2012-2015 on contracts for the United States Department of Defense. During that time I became an expert at applying the <a href="http://www.disa.mil/">Defense Information Systems Agency</a> (DISA) 
-                <a href="http://iase.disa.mil/stigs/Pages/index.aspx">Security Technical Implementation Guides</a> (STIGs) to SharePoint farms. I wrote a PowerShell module that can STIG a complete SharePoint farm (SharePoint 2010/2013, IIS 7, and SQL Server 2012) in less than 5 minutes. I could also write a Site Security Plan in less than a week.</p>
-
-                <p>Other than technology, I enjoy music, strength training, cycling, playing guitar, snowboarding, and cooking.</p>
-                
-            <h2 class="MainSection firamono">Portfolio</h2>
-                <div id="PortfolioWrapper">
-                    <a href="https://github.com/alulsh/SharePoint-2013-STIGs">
-                        <div class="portfolio powershell">
-                            <div class="portfolioText">SharePoint 2013 STIGs</div>
-                        </div>
-                    </a>
-                    <a href="https://github.com/alulsh/SharePoint-2010-STIGs">
-                        <div class="portfolio powershell">
-                            <div class="portfolioText">SharePoint 2010 STIGs</div>
-                        </div>
-                    </a>
-                    <a href="/DCTech-Photos-AJAX/">
-                        <div class="portfolio javascript">
-                            <div class="portfolioText">#DCTech Photos</div>
-                        </div>
-                    </a>
-                    <a href="http://slides.com/alexandraulsh/build-your-own-website-with-cloud9-and-github-pages#/">
-                        <div class="portfolio slides">
-                            <div class="portfolioText slidesText">Cloud9 and GitHub Pages</div>
-                        </div>
-                    </a>
-                    <a href="/DC-Tech-Women-And-NB-Websites/">
-                        <div class="portfolio javascript">
-                            <div class="portfolioText dcTechWomenText">DC Tech Women &amp; NB Websites</div>
-                        </div>
-                    </a>
-                    <a href="/Pig-Latin-Translator">
-                        <div class="portfolio javascript">
-                            <div class="portfolioText">Pig Latin Translator</div>
-                        </div>
-                    </a>
-                    <a href="https://github.com/womenwhocodedc/organization/blob/master/learning-resources/front-end-hack-nights/javascript_study_guide.md">
-                        <div class="portfolio javascript">
-                            <div class="portfolioText studyGuide">WWCDC JavaScript Study Guide</div>
-                        </div>
-                    </a>
-                </div>
-            <div class="wrapper">
-                <h2 class="MainSection firamono clear">Contact Me</h2>
-            </div>
-            <div id="SocialMediaWrapper">
-                <a href="mailto:alexandra.ulsh@gmail.com"><div id="GmailIcon" class="SocialMediaIcon"></div></a>
-                <a href="http://www.linkedin.com/in/alexandraulsh"><div id="LinkedInIcon" class="SocialMediaIcon"></div></a>
-                <a href="https://github.com/alulsh/"><div id="GitHubIcon" class="SocialMediaIcon"></div></a>
-                <a href="https://twitter.com/AlexUlsh"><div id="TwitterIcon" class="SocialMediaIcon"></div></a> 
-                <a href="https://instagram.com/alulsh/"><div id="InstagramIcon" class="SocialMediaIcon"></div></a>
-            </div>  
+<div class="home">
+  {% if posts_count > 0 %}
+    <div class="posts">
+      {% for post in paginator.posts %}
+        <div class="post py3">
+          <p class="post-meta">{{ post.date | date: site.date_format }}</p>
+          <a href="{{ post.url | prepend: site.baseurl }}" class="post-link"><h3 class="h1 post-title">{{ post.title }}</h3></a>
+          <span class="post-summary">
+            {% if post.summary %}
+              {{ post.summary }}
+            {% else %}
+              {{ post.excerpt }}
+            {% endif %}
+          </span>
         </div>
-    </body>
-</html>
+      {% endfor %}
+    </div>
+
+    {% include pagination.html %}
+  {% else %}
+    <h1 class='center'>{{ site.text.index.coming_soon }}</h1>
+  {% endif %}
+</div>
