@@ -1,4 +1,5 @@
-# alulsh.github.io
-Personal website
+# alexandraulsh.com
 
-<a href="https://alulsh.github.io/">http://www.alexandraulsh.com/</a>
+https://www.alexandraulsh.com/
+
+My personal website.
