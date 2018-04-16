@@ -22,13 +22,13 @@ _Link sharing defaults to anyone with the link_
 
 Public Google Drive files may leak sensitive information. For some organizations banning public Google Drive files is not an option. The G Suite admin panel displays the total number of public Drive files in your organization but it doesn't list the public files themselves. How can security teams or G Suite admins audit the public Google Drive files in their G Suite domains? 
 
-One option is a script using the [Google Drive REST API](https://developers.google.com/drive/v3/web/about-sdk) that runs under a service account with [domain-wide delegation of authority](https://developers.google.com/drive/v3/web/about-auth#perform_g_suite_domain-wide_delegation_of_authority). Although this provides a complete audit, someone has to manually review the results. While reviewing they may encounter sensitive information they should not see.
+One option is a script using the [Google Drive REST API](https://developers.google.com/drive/v3/web/about-sdk) that runs under a service account with [domain-wide delegation of authority](https://developers.google.com/drive/v3/web/about-auth#perform_g_suite_domain-wide_delegation_of_authority). Although this provides a complete audit, someone has to manually review the results. While reviewing the auditor may encounter sensitive information they should not have access to.
 
 Instead, we could distribute the work and empower users to do their own self audits. Not only does this respect document sensitivity and user privacy, it empowers users to learn more about Google Drive permissions.
 
 ## Google Apps Script
 
-I needed a way for any user to run a self audit without having to install, configure, or run a script. The Google Drive UI doesn't allow you to search for publicly shared files. 
+I needed a way for any user to run a self audit without having to install, configure, or run a local script. The Google Drive UI doesn't allow you to search for publicly shared files. 
 
 ![Google Drive search](/images/blog/drive-audit/drive-search-ui.png)
 
@@ -50,9 +50,9 @@ While writing this script I made several mistakes.
 
 Google Apps Scripts are convenient. The code runs on Google's servers. You are already authenticated and don't have to register a development application and set up [OAuth 2.0](https://developers.google.com/drive/v3/web/about-auth#OAuth2Authorizing).
 
-Unfortunately, by default you have to use the built in Google Apps Script IDE. Although the IDE has helpful autocompletion, it's hard to manage indentation, you can't comment out multiple lines at a time, and it lacks support for source control.
+Unfortunately, by default you have to use the built in Google Apps Script IDE (Integrated Development Environment). Although the IDE has helpful autocompletion, it's hard to indent or comment out code and it lacks support for source control.
 
-When developing Google Apps Scripts, use [clasp](https://github.com/google/clasp) instead. You'll still have to run `clasp open` periodically to test your scripts in the IDE, but you can use your favorite text editor and git for source control.
+When developing Google Apps Scripts, use [clasp](https://github.com/google/clasp) instead. You'll still have to run `clasp open` periodically to test your scripts in the IDE, but you can use your favorite text editor and source control programs. I used Sublime Text and git.
 
 ![Using clasp in action](/images/blog/drive-audit/clasp-in-action.png)
 
@@ -159,7 +159,7 @@ _Public Google Drive files audit results email_
 
 Here's the full script, which is [available on GitHub](https://github.com/alulsh/drive-public-files/blob/master/script/getPublicFiles.js). A few things worth noting:
 
-* I only report on files that we own (`if (fileOwner === currentUser)`), not copies of documents shared with us.
+* I only report on files that you own (`if (fileOwner === currentUser)`), not copies of documents shared with you.
 * I use several try catch statements as I've seen bad or invalid permissions on files blow up this script in the past.
 * I use the built in [Logger class](https://developers.google.com/apps-script/reference/base/logger) as my data store for ease of use. You could use the [Cache Service](https://developers.google.com/apps-script/reference/cache/) or a Drive spreadsheet instead.
 * I use `HtmlService.createHtmlOutput` to sanitize user provided data (Drive file names) with [Google Caja](https://developers.google.com/apps-script/reference/html/html-output#).
