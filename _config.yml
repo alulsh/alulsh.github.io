@@ -7,6 +7,7 @@ baseurl:     ""
 url:         "https://www.alexandraulsh.com/"
 date_format: "%b %-d, %Y"
 header_pages:
+ - blog/index.html
  - projects.md
  - talks.md
  - contact.md
@@ -121,6 +122,7 @@ redcarpet:
   extensions: ['smart', 'tables', 'with_toc_data']
 permalink:    pretty
 paginate:     4
+paginate_path: "/blog/:num/"
 sass:
   style: compressed
 gems:
