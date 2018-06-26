@@ -197,3 +197,5 @@ Multi-stage builds are easy to use and have little to no downsides. They can sig
 The Docker community is aware of [the lack of a built-in way to manage secrets in Dockerfiles](https://github.com/moby/moby/issues/13490). They're currently working on ways to improve using secrets in Docker. In the meantime multi-stage builds allow us to securely use `.npmrc` files or other secrets in our Docker builds. They also improve the readability of our Dockerfiles and decrease the size of our images.
 
 Most of the guides for using `.npmrc` files in Docker images date from before multi-stage builds in May 2017. I'm currently drafting a pull request to [the official npm documentation](https://github.com/npm/docs) to update their guidance to use multi-stage builds. I'll update this blog post with a link to the pull request as well as updates on its status!
+
+**Update - 22:40 EST June 25th 2018** - I submitted an [issue](https://github.com/npm/docs/issues/1020) and a separate [pull request](https://github.com/npm/docs/pull/1021) to [https://github.com/npm/docs](https://github.com/npm/docs) with new guidance about multi-stage builds. 
