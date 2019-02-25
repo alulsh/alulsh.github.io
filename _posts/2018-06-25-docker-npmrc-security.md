@@ -21,7 +21,7 @@ In this blog post, I'll first describe the common ways people use `.npmrc` files
 
 This blog post focuses on using Docker with Node.js and npm. The concepts I cover apply to any `Dockerfile` that uses tokens, passwords, or other secrets though.
 
-I also created a companion GitHub repository for this blog post so you can follow along with my examples. You can check it out at [https://github.com/alulsh/secure-npmrc-docker](https://github.com/alulsh/secure-npmrc-docker).
+I also created a companion GitHub repository for this blog post so you can follow along with my examples. You can check it out at [https://github.com/alulsh/docker-npmrc-security](https://github.com/alulsh/docker-npmrc-security).
 
 I have revoked all npm tokens featured in all screenshots.
 
@@ -46,7 +46,7 @@ EXPOSE 3000
 CMD ["node","index.js"]
 ```
 
-This `Dockerfile` creates the `.npmrc` file using an `NPM_TOKEN` environment variable that we pass in as a build argument (`ARG NPM_TOKEN`). To build it locally, first clone the companion GitHub repository at [https://github.com/alulsh/secure-npmrc-docker](https://github.com/alulsh/secure-npmrc-docker) then:
+This `Dockerfile` creates the `.npmrc` file using an `NPM_TOKEN` environment variable that we pass in as a build argument (`ARG NPM_TOKEN`). To build it locally, first clone the companion GitHub repository at [https://github.com/alulsh/docker-npmrc-security](https://github.com/alulsh/docker-npmrc-security) then:
 
 1. Run `npm token create --read-only` to create a [read only npm token](https://docs.npmjs.com/getting-started/working_with_tokens#how-to-create-a-new-read-only-token).
 1. Run `export NPM_TOKEN=<npm token>` to set this token as an environment variable.
