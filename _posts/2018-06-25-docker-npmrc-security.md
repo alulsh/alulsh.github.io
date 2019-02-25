@@ -5,6 +5,10 @@ date:       2018-06-25
 summary:    .npmrc files are often used insecurely in Docker images. Here's how you can use them securely.
 ---
 
+## Update - Docker build secrets
+
+On February 24th, 2019 I published a follow-up post about using [Docker build secrets](/2019/02/24/docker-build-secrets-and-npmrc/) instead of multi-stage builds. I recommend reading that post after this one!
+
 ## Building Docker images with private npm packages
 
 I recently completed a security audit of Docker images for a project. These images used `.npmrc` files ([npm config files](https://docs.npmjs.com/files/npmrc)) to download private npm packages. By default, an `.npmrc` file contains a token with read/write access to your private npm packages. It looks like this:
@@ -198,4 +202,4 @@ The Docker community is aware of [the lack of a built-in way to manage secrets i
 
 Most of the guides for using `.npmrc` files in Docker images date from before multi-stage builds in May 2017. I'm currently drafting a pull request to [the official npm documentation](https://github.com/npm/docs) to update their guidance to use multi-stage builds. I'll update this blog post with a link to the pull request as well as updates on its status!
 
-**Update - 22:40 EST June 25th 2018** - I submitted an [issue](https://github.com/npm/docs/issues/1020) and a separate [pull request](https://github.com/npm/docs/pull/1021) to [https://github.com/npm/docs](https://github.com/npm/docs) with new guidance about multi-stage builds. 
+**Update - 22:40 EST June 25th, 2018** - I submitted an [issue](https://github.com/npm/docs/issues/1020) and a separate [pull request](https://github.com/npm/docs/pull/1021) to [https://github.com/npm/docs](https://github.com/npm/docs) with new guidance about multi-stage builds.
