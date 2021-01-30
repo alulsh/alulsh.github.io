@@ -19,16 +19,10 @@ Code and security projects.
 
 [@AlexUlsh](https://twitter.com/AlexUlsh)
 
-Mostly tech, security, culture, and politics.
+Mostly tech, security, and culture.
 
 ### LinkedIn
 
 [alexandraulsh](https://www.linkedin.com/in/alexandraulsh/)
 
 All business.
-
-### Instagram
-
-[alulsh](https://www.instagram.com/alulsh/)
-
-Purely personal. Mostly calisthenics and gymnastics fitness videos.
