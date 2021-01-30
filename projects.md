@@ -43,22 +43,3 @@ I created this project in 2015 when I was putting together my personal website f
 [Live map](https://www.alexandraulsh.com/military-brat-map/) - [GitHub](https://github.com/alulsh/military-brat-map)
 
 I get asked a lot where I'm from. Given I'm a military brat, it's much easier to explain with a map. At Mapbox everyone has to make a map as part of onboarding and this is what I made. I would love to upgrade it from [mapbox.js](https://www.mapbox.com/mapbox.js/api/) to [Mapbox GL JS](https://www.mapbox.com/mapbox-gl-js/api/) sometime.
-
-### Fitness
-
-I'm currently working through [GMB.io's Rings 1](https://gmb.io/r1/) program. I also attend group CrossFit classes 2-3x a week for strength and conditioning. Here are some movements or PRs I can't do yet but that I'm currently working on as of September 2017:
-
-* strict ring muscle up
-* straight arm piked leg skin the cat (rings)
-* tuck to tuck shoulder stand (rings)
-* strict handstand push up (wall supported)
-* freebalancing handstand
-* 10 strict fixed bar pull ups
-* 1 pistol squat on my left leg without a counterweight or having to hold my right foot
-
-Here are some calisthenics moves and PRs I have conquered that I am particularly proud of:
-* 5 strict ring dips
-* [8 strict fixed bar pull ups](https://www.instagram.com/p/BX9VdXDB72s/)
-* 5 pistol squats (right leg only)
-* 205lb conventional deadlift (~1.5x bodyweight)
-* 1:53 500m row on erg
