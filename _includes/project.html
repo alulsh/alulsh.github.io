@@ -1,0 +1,17 @@
+{% for repository in site.github.public_repositories %}
+  {% if repository.name == page.repo %}
+<div class="project-info">
+      <a href="{{ repository.html_url }}">{{ repository.html_url }}</a><br/>
+      {% if page.website %}
+      <a href="{{ page.website }}">{{ page.website }}</a><br/>
+      {% endif %}
+    {% octicon star height:16 aria-label:star %} {{ repository.stargazers_count }}
+    {% octicon repo-forked height:16 aria-label:repo-forked %} {{ repository.forks_count }}
+    - Created on {{ repository.created_at | date: "%b %d, %Y" }} - 
+    Last updated on {{ repository.pushed_at | date: "%b %d, %Y" }}
+</div>
+{% if page.image %}
+<img alt="{{ page.image_alt }}" src="{{ page.image }}" />
+{% endif %}
+  {% endif %}
+{% endfor %}
