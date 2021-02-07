@@ -6,4 +6,10 @@
 {% include project_alulsh_github.html %}
 {% endif %}
 
+{% if page.image %}
 <a class="image-link" href="{{ page.website }}"><img alt="{{ page.image_alt }}" src="{{ page.image }}" /></a>
+{% endif %}
+
+{% if page.video %}
+<iframe width="560" height="315" src="{{ page.video }}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+{% endif %}
