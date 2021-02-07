@@ -11,6 +11,8 @@ header_pages:
  - projects.md
  - talks.md
  - contact.md
+collections:
+  - projects
 
 # Google services
 google_verification:
@@ -128,6 +130,7 @@ sass:
 plugins:
   - jekyll-paginate
   - jekyll-sitemap
+  - jekyll-octicons
 # https://github.com/jekyll/jekyll/issues/2938
 exclude:
   - Gemfile
