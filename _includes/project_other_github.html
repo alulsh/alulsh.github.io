@@ -1,5 +1,6 @@
 <div class="project-info">
 
+{% unless page.repo_owner == "none" %}
 <a href="{{ page.repo }}">{{ page.repo }}</a><br/>
 <a href="{{ page.website }}">{{ page.website }}</a><br/>
 {% octicon star height:16 aria-label:star %} {{ page.stars }}
@@ -7,6 +8,13 @@
 
 {% if page.created_on %}
 - Created on {{ page.created_on }}
+{% endif %}
+{% endunless %}
+
+{% if page.name == "Intro to Git + Build Your Own Website with GitHub Pages and Cloud9" %}
+<a href="{{ page.website }}">{{ page.website }}</a><br/>
+{% octicon eye height:16 aria-label:eye %} 9,636
+{% octicon heart-fill height:16 aria-label:heart-fill %} 14
 {% endif %}
 
 </div>
