@@ -1,9 +1,25 @@
+{% if page.repo %}
 {% unless page.repo_owner == "alulsh" %}
 {% include project_other_github.html %}
 {% endunless %}
-
 {% if page.repo_owner == "alulsh" %}
 {% include project_alulsh_github.html %}
+{% endif %}
+{% endif %}
+
+{% if page.name == "Intro to Git + Build Your Own Website with GitHub Pages and Cloud9" %}
+<div class="project-info">
+<a href="{{ page.website }}">{{ page.website }}</a><br/>
+{% octicon eye height:16 aria-label:eye %} 9,636
+{% octicon heart-fill height:16 aria-label:heart-fill %} 14
+</div>
+{% endif %}
+
+{% if page.conference %}
+<div class="project-info">
+{{ page.conference }}<br/>
+<a href="{{ page.website }}">{{ page.website }}</a>
+</div>
 {% endif %}
 
 {% if page.image %}

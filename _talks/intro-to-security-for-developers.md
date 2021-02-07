@@ -5,7 +5,7 @@ repo_owner: alulsh
 repo: intro-to-security-for-developers
 website: https://www.alexandraulsh.com/intro-to-security-for-developers/slides/#/
 video: https://www.youtube.com/embed/997I98d_QN0
-order: 1
+order: 2
 ---
 
 {% include project_base.html %}
