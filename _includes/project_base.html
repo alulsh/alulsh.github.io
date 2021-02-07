@@ -1,0 +1,9 @@
+{% unless page.repo_owner == "alulsh" %}
+{% include project_other_github.html %}
+{% endunless %}
+
+{% if page.repo_owner == "alulsh" %}
+{% include project_alulsh_github.html %}
+{% endif %}
+
+<a class="image-link" href="{{ page.website }}"><img alt="{{ page.image_alt }}" src="{{ page.image }}" /></a>

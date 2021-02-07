@@ -1,13 +1,15 @@
 ---
 name: Personal security checklist
 type: security
+repo_owner: alulsh
 repo: personal-security-checklist
+website: https://github.com/alulsh/personal-security-checklist
 image: /images/projects/personal-security-checklist.png
 image_alt: Presenting on my personal security checklist at DC Hack and Tell on February 16th, 2017
 order: 2
 ---
 
-{% include project.html %}
+{% include project_base.html %}
 
 After leading my first Intro to Security for Developers workshop, I noticed my attendees felt worried and overwhelmed afterwards instead of empowered. They didn't know where to start in securing their personal accounts and devices. 
 
