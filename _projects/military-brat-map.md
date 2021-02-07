@@ -5,7 +5,7 @@ repo: military-brat-map
 website: https://www.alexandraulsh.com/military-brat-map/
 image: /images/projects/military-brat-map.png
 image-alt: Military brat map
-order: 1
+order: 2
 ---
 
 {% include project.html %}
