@@ -11,7 +11,7 @@ tags: projects
 {% for project in ordered_projects %}
   {% if project.type == 'security' %}
 <h3>{{ project.name }}</h3>
-<p> {{ project.content }} </p>
+<p>{{ project.content }}</p>
   {% endif %}
 {% endfor %}
 
@@ -20,7 +20,7 @@ tags: projects
 {% for project in ordered_projects %}
   {% if project.type == 'maps' %}
 <h3>{{ project.name }}</h3>
-<p> {{ project.content }} </p>
+<p>{{ project.content }}</p>
   {% endif %}
 {% endfor %}
 
@@ -29,6 +29,6 @@ tags: projects
 {% for project in ordered_projects %}
   {% if project.type == 'community' %}
 <h3>{{ project.name }}</h3>
-<p> {{ project.content }} </p>
+<p>{{ project.content }}</p>
   {% endif %}
 {% endfor %}
