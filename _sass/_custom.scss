@@ -2,3 +2,10 @@
     font-family: $heading-font-family;
     margin-bottom: 10px;
 }
+
+.image-link,
+.image-link:hover,
+.image-link:visited,
+.image-link:active {
+    background-image: none;
+}

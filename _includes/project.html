@@ -11,7 +11,7 @@
     Last updated on {{ repository.pushed_at | date: "%b %d, %Y" }}
 </div>
 {% if page.image %}
-<img alt="{{ page.image_alt }}" src="{{ page.image }}" />
+<a class="image-link" href="{{ page.website }}"><img alt="{{ page.image_alt }}" src="{{ page.image }}" /></a>
 {% endif %}
   {% endif %}
 {% endfor %}
