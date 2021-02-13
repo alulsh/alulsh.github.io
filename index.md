@@ -2,7 +2,7 @@
 layout: page
 ---
 
-<img src="images/oreilly.jpg" style="float:left;padding:10px 10px 10px 0px" /> Hey, I'm Alexandra "Alex" Ulsh! I'm an Information Security Engineer at [Mapbox](https://www.mapbox.com/) in Washington, D.C. I work on everything from running our bug bounty program on [HackerOne](https://hackerone.com/mapbox) to platform security on AWS to making sure everyone at Mapbox has a password manager and knows how to use it.
+<img src="images/oreilly.jpg" class="profile-picture" /> Hey, I'm Alexandra "Alex" Ulsh! I'm an Information Security Engineer at [Mapbox](https://www.mapbox.com/) in Washington, D.C. I work on everything from running our bug bounty program on [HackerOne](https://hackerone.com/mapbox) to platform security on AWS to making sure everyone at Mapbox has a password manager and knows how to use it.
 
 I love information security (especially web application security), the internet, computers, writing code, and automating everything. Outside of technology I love strength training (especially calisthenics and gymnastics), nutrition, music, dogs 🐶, coffee ☕, foreign languages, and board sports 🏂.
 
