@@ -15,3 +15,11 @@
    padding-top: 5px;
    padding-right: 10px;
 }
+
+.header-link,
+.header-link:hover,
+.header-link:visited,
+.header-link:active {
+    color: $dark-gray;
+    background-image: none;
+}
