@@ -1,5 +1,5 @@
 ---
-name: Family Tree Map
+title: Family tree map
 type: maps
 layout: page
 repo_owner: alulsh

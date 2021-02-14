@@ -1,5 +1,5 @@
 ---
-name: DCFemTech Hack for Good WABA Map
+title: DCFemTech Hack for Good WABA Map
 type: community
 layout: page
 repo_owner: dcfemtech

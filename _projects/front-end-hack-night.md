@@ -1,5 +1,5 @@
 ---
-name: Women Who Code DC Front End Hack Night
+title: Women Who Code DC Front End Hack Night
 type: community
 layout: page
 repo_owner: womenwhocodedc

@@ -1,5 +1,5 @@
 ---
-name: Intro to Git + Build Your Own Website with GitHub Pages and Cloud9
+title: Intro to Git + Build Your Own Website with GitHub Pages and Cloud9
 website: https://slides.com/alexandraulsh
 repo_owner: none
 layout: page

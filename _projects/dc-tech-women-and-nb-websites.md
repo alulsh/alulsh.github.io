@@ -1,5 +1,5 @@
 ---
-name: DC Tech Women and NB Websites
+title: DC Tech Women and NB Websites
 type: community
 layout: page
 repo_owner: alulsh

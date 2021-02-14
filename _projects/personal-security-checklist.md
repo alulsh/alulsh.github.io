@@ -1,5 +1,5 @@
 ---
-name: Personal security checklist
+title: Personal security checklist
 type: security
 layout: page
 repo_owner: alulsh

@@ -1,5 +1,5 @@
 ---
-name: How to launch and run a successful bug bounty program
+title: How to launch and run a successful bug bounty program
 layout: page
 conference: O'Reilly Security Conference New York 2017
 website: https://www.crunchbase.com/event/o-reilly-security-conference-2017-20171030

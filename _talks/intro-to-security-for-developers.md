@@ -1,5 +1,5 @@
 ---
-name: Intro to Security for Developers
+title: Intro to Security for Developers
 type: security
 layout: page
 repo_owner: alulsh

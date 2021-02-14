@@ -1,5 +1,5 @@
 ---
-name: Docker .npmrc security
+title: Docker .npmrc security
 type: security
 layout: page
 repo_owner: alulsh

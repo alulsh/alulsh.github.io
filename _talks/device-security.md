@@ -1,5 +1,5 @@
 ---
-name: Device security
+title: Device security
 repo_owner: alulsh
 layout: page
 repo: device-security

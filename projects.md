@@ -10,7 +10,7 @@ tags: projects
 
 {% for project in ordered_projects %}
   {% if project.type == 'security' %}
-<h3><a href="{{ project.url }}" class="header-link">{{ project.name }}</a></h3>
+<h3><a href="{{ project.url }}" class="header-link">{{ project.title }}</a></h3>
 <p>{{ project.content }}</p>
   {% endif %}
 {% endfor %}
@@ -19,7 +19,7 @@ tags: projects
 
 {% for project in ordered_projects %}
   {% if project.type == 'maps' %}
-<h3><a href="{{ project.url }}" class="header-link">{{ project.name }}</a></h3>
+<h3><a href="{{ project.url }}" class="header-link">{{ project.title }}</a></h3>
 <p>{{ project.content }}</p>
   {% endif %}
 {% endfor %}
@@ -28,7 +28,7 @@ tags: projects
 
 {% for project in ordered_projects %}
   {% if project.type == 'community' %}
-<h3><a href="{{ project.url }}" class="header-link">{{ project.name }}</a></h3>
+<h3><a href="{{ project.url }}" class="header-link">{{ project.title }}</a></h3>
 <p>{{ project.content }}</p>
   {% endif %}
 {% endfor %}

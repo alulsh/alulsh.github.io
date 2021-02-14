@@ -1,5 +1,5 @@
 ---
-name: Military Brat Map
+title: Military brat map
 type: maps
 layout: page
 repo_owner: alulsh
