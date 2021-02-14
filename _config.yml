@@ -12,8 +12,10 @@ header_pages:
  - talks.md
  - contact.md
 collections:
-  - projects
-  - talks
+  projects:
+    output: true
+  talks:
+    output: true
 
 # Google services
 google_verification:

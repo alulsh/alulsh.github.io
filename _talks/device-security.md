@@ -1,6 +1,7 @@
 ---
 name: Device security
 repo_owner: alulsh
+layout: page
 repo: device-security
 website: https://www.alexandraulsh.com/device-security/
 image: /images/talks/device-security.png

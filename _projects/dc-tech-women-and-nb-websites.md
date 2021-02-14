@@ -1,6 +1,7 @@
 ---
 name: DC Tech Women and NB Websites
 type: community
+layout: page
 repo_owner: alulsh
 repo: DC-Tech-Women-And-NB-Websites
 website: https://www.alexandraulsh.com/DC-Tech-Women-And-NB-Websites/

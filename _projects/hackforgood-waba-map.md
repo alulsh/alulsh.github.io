@@ -1,6 +1,7 @@
 ---
 name: DCFemTech Hack for Good WABA Map
 type: community
+layout: page
 repo_owner: dcfemtech
 repo: https://github.com/dcfemtech/hackforgood-waba-map
 website: https://dcfemtech.com/hackforgood-waba-map/

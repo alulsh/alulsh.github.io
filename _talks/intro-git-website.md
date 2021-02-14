@@ -2,6 +2,7 @@
 name: Intro to Git + Build Your Own Website with GitHub Pages and Cloud9
 website: https://slides.com/alexandraulsh
 repo_owner: none
+layout: page
 image: /images/talks/intro-to-git.png
 image_alt: Intro to Git + Build Your Own Website with GitHub Pages and Cloud9
 order: 3

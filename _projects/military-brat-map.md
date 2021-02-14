@@ -1,6 +1,7 @@
 ---
 name: Military Brat Map
 type: maps
+layout: page
 repo_owner: alulsh
 repo: military-brat-map
 website: https://www.alexandraulsh.com/military-brat-map/

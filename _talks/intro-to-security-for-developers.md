@@ -1,6 +1,7 @@
 ---
 name: Intro to Security for Developers
 type: security
+layout: page
 repo_owner: alulsh
 repo: intro-to-security-for-developers
 website: https://www.alexandraulsh.com/intro-to-security-for-developers/slides/#/

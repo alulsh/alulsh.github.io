@@ -1,6 +1,7 @@
 ---
 name: Personal security checklist
 type: security
+layout: page
 repo_owner: alulsh
 repo: personal-security-checklist
 website: https://github.com/alulsh/personal-security-checklist

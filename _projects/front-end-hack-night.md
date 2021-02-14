@@ -1,6 +1,7 @@
 ---
 name: Women Who Code DC Front End Hack Night
 type: community
+layout: page
 repo_owner: womenwhocodedc
 repo: https://github.com/womenwhocodedc/front-end-community
 website: https://www.womenwhocode.com/dc

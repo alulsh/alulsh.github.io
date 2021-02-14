@@ -1,6 +1,7 @@
 ---
 name: Docker .npmrc security
 type: security
+layout: page
 repo_owner: alulsh
 repo: docker-npmrc-security
 website: https://www.alexandraulsh.com/2018/06/25/docker-npmrc-security/

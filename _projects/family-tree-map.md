@@ -1,6 +1,7 @@
 ---
 name: Family Tree Map
 type: maps
+layout: page
 repo_owner: alulsh
 repo: family-tree-map
 website: https://www.alexandraulsh.com/family-tree-map/
