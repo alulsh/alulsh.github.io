@@ -14,4 +14,4 @@ order: 2
 
 {% include project_base.html %}
 
-From February 2015 through February 2016, every Monday evening I planned and led a 2.5 hour-long front end hack night, pesronally focusing mostly on JavaScript. Around 25 attendees RSVPed each night, with an all time high of 73 RSVPs.
+From February 2015 through February 2016, every Monday evening I planned and led a 2.5 hour-long front end hack night, personally focusing mostly on JavaScript. Around 25 attendees RSVPed each night, with an all time high of 73 RSVPs.
