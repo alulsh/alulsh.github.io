@@ -10,16 +10,28 @@
     background-image: none;
 }
 
-.profile-picture {
-   float: left;
-   padding-top: 5px;
-   padding-right: 10px;
-}
-
 .header-link,
 .header-link:hover,
 .header-link:visited,
 .header-link:active {
     color: $dark-gray;
     background-image: none;
+}
+
+.profile-picture {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+  height: 60%;
+}
+
+@media screen and (min-width: $viewport-small) {
+  .profile-picture {
+    float: left;
+    padding-top: 5px;
+    padding-right: 10px;
+    height: 400px;
+    width: 267px;
+  }
 }
