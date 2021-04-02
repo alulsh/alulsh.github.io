@@ -4,21 +4,40 @@ https://www.alexandraulsh.com/
 
 My personal website.
 
-## Prerequisites
+## Dependencies
 
-You'll need Ruby with [Bundler](https://bundler.io/). Use the version of Ruby installed with [homebrew](https://brew.sh/), not the default Ruby on macOS.
+This websites uses the same versions of Ruby (v2.7.1) and Jekyll (v3.9.0) as [GitHub Pages](https://pages.github.com/versions/).
 
-To use the homebrew version of Ruby:
+Install rbenv with [homebrew](https://brew.sh/) and optionally set Ruby v2.7.1 as the default:
 
+```sh
+brew install rbenv
+rbenv install 2.7.1
+rbenv global 2.7.1
 ```
-brew install ruby
-echo 'export PATH=/usr/local/opt/ruby/bin:$PATH' >> ~/.bash_profile
-source ~/.bash_profile
+
+Set up [rbenv in your shell](https://github.com/rbenv/rbenv#how-rbenv-hooks-into-your-shell):
+
+```sh
+echo 'eval "$(rbenv init -)"' >> ~/.zshrc
+source ~/.zshrc
 ```
 
-Then install Bundler with `gem install bundler`.
+Upgrade bundler to v2.2.8:
 
-## Setup
+```sh
+gem install bundler:2.2.8
+```
+
+Install Jekyll v3.9.0:
+
+```sh
+gem install jekyll:3.9.0
+```
+
+## Install locally
+
+After installing dependencies, to install this website locally:
 
 ```sh
 git clone git@github.com:alulsh/alulsh.github.io.git
@@ -26,8 +45,6 @@ cd alulsh.github.io
 bundle install
 ```
 
-You may need to run `bundle update --bundler`.
-
 ## Run locally
 
-Run `bundle exec jekyll serve --watch` then visit http://127.0.0.1:4000/ in a web browser.
+Run `jekyll serve --watch` then visit http://127.0.0.1:4000/ in a web browser.
