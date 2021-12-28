@@ -7,7 +7,7 @@ repo: family-tree-map
 website: https://www.alexandraulsh.com/family-tree-map/
 image: /images/projects/family-tree-map.png
 image_alt: Family tree map
-order_number: 1
+order_number: 2
 ---
 
 {% include project_base.html %}
